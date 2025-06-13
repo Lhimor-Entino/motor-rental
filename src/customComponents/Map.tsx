@@ -65,7 +65,7 @@ const Map = () => {
     const [currentLocation, setCurrentLocation] = useState<LatLngExpression | null>(null);
     const [destination, setDestination] = useState<LatLngExpression | null>(null);
     const [mapCenter, setMapCenter] = useState<LatLngExpression>([14.5995, 120.9842]); // fallback center
-
+    const [coords,setCoord] = useState<any>("")
     useEffect(() => {
         const watchId = navigator.geolocation.watchPosition(
             (position) => {
@@ -73,6 +73,7 @@ const Map = () => {
                 const coords: LatLngExpression = { lat: latitude, lng: longitude };
                 setCurrentLocation(coords);
                 setMapCenter(coords); // Optional: to follow the user
+                setCoord(coords)
             },
             (err) => {
                 console.error('Geolocation error:', err);
@@ -93,6 +94,7 @@ const Map = () => {
 
     return (
         <div className='relative w-[500px]'>
+            {JSON.stringify(coords)}
             <MapContainer
                 center={mapCenter}
                 zoom={16}
