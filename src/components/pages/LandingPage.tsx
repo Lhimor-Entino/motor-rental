@@ -1,10 +1,8 @@
 
-import { Button } from "@/components/ui/button";
-import { BoxReveal } from "@/components/magicui/box-reveal";
+
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { MorphingText } from "../magicui/morphing-text";
-import { WarpBackground } from "../magicui/warp-background";
-import { RetroGrid } from "../magicui/retro-grid";
+
 import { AvailableUnits } from "@/customComponents/AvailableUnits";
 import { TextReveal } from "../magicui/text-reveal";
 import ShopBanner from "@/customComponents/ShopBanner";
@@ -12,7 +10,7 @@ type Props = {
 
 }
 
-const LandingPage = (props: Props) => {
+const LandingPage = (_props: Props) => {
   return (
     <div className=" w-4/5 flex flex-col m-auto p-8 rounded-2xl  ">
 

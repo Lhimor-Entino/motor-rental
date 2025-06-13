@@ -2,9 +2,8 @@ import { BlurFade } from '@/components/magicui/blur-fade'
 import { MorphingText } from '@/components/magicui/morphing-text'
 
 
-type Props = {}
 
-const ShopBanner = (props: Props) => {
+const ShopBanner = () => {
     return (
         <>
             <section id="header-2">

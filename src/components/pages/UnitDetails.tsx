@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom';
 
 type Props = {}
 
-const UnitDetails = (props: Props) => {
+const UnitDetails = (_props: Props) => {
   const { id } = useParams<{ id: string }>();
   const [unit,setUnit] = useState<UnitInterface|null>(null)
 

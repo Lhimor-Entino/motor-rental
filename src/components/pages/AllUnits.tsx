@@ -4,7 +4,7 @@ import ShopBanner from '@/customComponents/ShopBanner'
 import UnitCard from '@/customComponents/UnitCard'
 import { motorcycles } from '@/data/data';
 import type { UnitInterface } from '@/types/unitInterface';
-import { LocateFixedIcon, MapPinCheckInside } from 'lucide-react';
+import { LocateFixedIcon } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import {
   Popover,
