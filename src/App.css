@@ -1,0 +1,14 @@
+#routing-instructions li {
+  margin-bottom: 0.5rem;
+}
+.leaflet-routing-collapse-btn {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/380/590/original/direction-vector-icon.jpg') !important; /* Your icon */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}

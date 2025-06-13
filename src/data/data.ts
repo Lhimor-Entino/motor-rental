@@ -1,0 +1,80 @@
+export const motorcycles = [
+  {
+    id: 1,
+    name: "Yamaha Sport Model 1",
+    brand: "Yamaha",
+    price: 12500,
+    rating: 4.5,
+    image: "https://png.pngtree.com/png-clipart/20240321/original/pngtree-yamaha-png-free-download-png-image_14649020.png",
+    description: "The Yamaha Sport Model 1 is a nimble and stylish sport bike designed for city riders and weekend adventurers alike. With its aerodynamic fairings and aggressive stance, this motorcycle is ideal for those seeking a balanced combination of speed, control, and everyday comfort.",
+    engineCC: 155,
+    transmission: "6-speed manual",
+    fuelType: "Petrol",
+    topSpeed: "130 km/h"
+  },
+  {
+    id: 2,
+    name: "Yamaha YZF-R1",
+    brand: "Yamaha",
+    price: 18500,
+    rating: 4.8,
+    image: "https://png.pngtree.com/png-clipart/20231027/original/pngtree-yamaha-yzf-r1-transparent-background-png-image_13445779.png",
+    description: "The Yamaha YZF-R1 is a high-performance superbike engineered for speed and agility. Inspired by MotoGP technology, it features a crossplane crankshaft engine and advanced electronics for incredible control on both road and track. Built for thrill seekers, it delivers top-tier racing performance in a street-legal package.",
+    engineCC: 998,
+    transmission: "6-speed manual with quick-shifter",
+    fuelType: "Petrol",
+    topSpeed: "299 km/h"
+  },
+  {
+    id: 3,
+    name: "Yamaha New Sport",
+    brand: "Yamaha",
+    price: 14000,
+    rating: 4.6,
+    image: "https://www.nicepng.com/png/detail/4-47299_yamaha-motorcycle-png-download-image-yamaha-new-sport.png",
+    description: "Combining modern aesthetics with solid mid-range performance, the Yamaha New Sport is an excellent all-rounder for daily commuting and weekend rides. With a comfortable upright seating position, responsive handling, and efficient fuel economy, it's designed for riders who want both performance and practicality.",
+    engineCC: 200,
+    transmission: "5-speed manual",
+    fuelType: "Petrol",
+    topSpeed: "145 km/h"
+  },
+  {
+    id: 4,
+    name: "Yamaha Cruiser 1",
+    brand: "Yamaha",
+    price: 13000,
+    rating: 4.4,
+    image: "https://www.pngarts.com/files/1/Yamaha-Motorcycle-PNG-Photo.png",
+    description: "The Yamaha Cruiser 1 offers a laid-back riding experience perfect for long-distance highway cruising. With a low seat height, wide handlebars, and a smooth, torquey engine, this model emphasizes comfort and control on long journeys, making it a favorite among touring riders.",
+    engineCC: 250,
+    transmission: "5-speed manual",
+    fuelType: "Petrol",
+    topSpeed: "135 km/h"
+  },
+  {
+    id: 5,
+    name: "Yamaha Road Model",
+    brand: "Yamaha",
+    price: 13800,
+    rating: 4.7,
+    image: "https://www.pngarts.com/files/1/Yamaha-Motorcycle-PNG-Free-Download.png",
+    description: "Built for dynamic road handling and long rides, the Yamaha Road Model blends touring functionality with sporty looks. Featuring a semi-digital instrument cluster, powerful braking, and advanced suspension, this motorcycle is engineered for reliable performance over extended distances.",
+    engineCC: 220,
+    transmission: "5-speed manual",
+    fuelType: "Petrol",
+    topSpeed: "140 km/h"
+  },
+  {
+    id: 6,
+    name: "Yamaha Vixion Vector",
+    brand: "Yamaha",
+    price: 11500,
+    rating: 4.3,
+    image: "https://png.pngtree.com/png-vector/20240611/ourmid/pngtree-motorcycle-yamaha-vixion-vector-png-image_12713873.png",
+    description: "The Yamaha Vixion Vector is a stylish and lightweight street motorcycle perfect for beginners and city riders. It features a fuel-injected engine, sharp headlight design, and digital meter panel. With excellent fuel economy and reliable engineering, it's a smart choice for daily transportation.",
+    engineCC: 150,
+    transmission: "5-speed manual",
+    fuelType: "Petrol",
+    topSpeed: "125 km/h"
+  }
+];
