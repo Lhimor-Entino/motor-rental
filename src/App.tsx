@@ -26,7 +26,9 @@ const router = createBrowserRouter([
     ],
   },
 ], {
-  basename: '/rental'
+  //basename: '/rental'
+  basename: '/'
+  
 });
 
 function App() {
