@@ -4,6 +4,7 @@ import MainLayout from './customComponents/MainLayout';
 import LandingPage from './components/pages/LandingPage';
 import AllUnits from './components/pages/AllUnits';
 import UnitDetails from './components/pages/UnitDetails';
+import Login from './components/pages/Login';
 
 
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
        {
         path: 'units/:id',
         element: <UnitDetails />,
+      },
+             {
+        path: 'login',
+        element: <Login />,
       },
     ],
   },
