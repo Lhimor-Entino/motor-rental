@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between px-6 py-4 shadow-md bg-white ">
       {/* Logo */}
-      <div className="text-2xl font-bold text-primary">ENT Rental</div>
+      <div className="text-2xl font-bold text-primary">ENTINO Rental</div>
 
       {/* CTA Button */}
       <Link to="/units">
